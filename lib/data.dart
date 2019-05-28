@@ -59,7 +59,7 @@ Category getCategoryFromName(name) {
 }
 
 void paymentCCDC(ccn, ey, em, cvv, name, address, phone) async {
-  String merchantCode = "";
+  String merchantCode = "1000000032";
 
   String customerProfileId = "7uyA76gf2";
   var tokenRes = await http.post(
